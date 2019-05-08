@@ -9,20 +9,26 @@
 <body>
 
     <style>
-        ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
 }
 
 li a {
   display: block;
-  color: #000;
-
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
+
 
 /* Change the link color on hover */
 li a:hover {
@@ -30,8 +36,6 @@ li a:hover {
   color: white;
 }
         </style>
-        <h2>Vertical Navigation Bar</h2>
-
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#product">producte</a></li>
